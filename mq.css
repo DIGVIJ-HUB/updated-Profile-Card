@@ -1,0 +1,293 @@
+@media (max-width: 116em) {
+  .container {
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 110em) {
+  .container {
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width: 100em) {
+  .container {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 95em) {
+  .container {
+    gap: 6rem;
+    margin-left: 2rem;
+  }
+
+  .hr,
+  .fbhr {
+    width: 25rem;
+  }
+
+  .cont1,
+  .cont2,
+  .cont3 {
+    height: 28rem;
+    width: 26rem;
+  }
+}
+
+@media (max-width: 80em) {
+  .container {
+    gap: 2rem;
+    margin-left: 1rem;
+  }
+
+  .cont1,
+  .cont2,
+  .cont3 {
+    height: 28rem;
+    width: 24rem;
+  }
+
+  .hr,
+  .fbhr {
+    width: 23rem;
+  }
+
+  .bkg1 {
+    width: 24rem;
+    height: 9rem;
+  }
+
+  .num1 {
+    margin-left: 1.8rem;
+  }
+
+  .tag1 {
+    margin-left: -0.8rem;
+  }
+
+  .btn1,
+  .btn2 {
+    margin-left: 8rem;
+  }
+
+  .ionicon1 {
+    margin-left: -6rem;
+  }
+
+  .ionicon2 {
+    margin-left: 1rem;
+  }
+
+  .myphoto2 {
+    margin-left: 8rem;
+  }
+
+  .name2 {
+    margin-left: 7.8rem;
+  }
+
+  .myphoto3 {
+    margin-left: 8rem;
+  }
+
+  .num3 {
+    margin-left: 1.5rem;
+  }
+
+  .tag3 {
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 65em) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    display: grid;
+    gap: 4rem;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+  }
+
+  .cont1,
+  .cont2,
+  .cont3 {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .bkg1 {
+    width: 29rem;
+    height: 10rem;
+  }
+
+  .hr,
+  .fbhr {
+    width: 28rem;
+  }
+
+  .grid1 {
+    grid-template-columns: 15rem 1fr;
+  }
+
+  .btn1,
+  .btn2 {
+    margin-left: 10rem;
+  }
+
+  .myphoto2 {
+    margin-left: 10rem;
+  }
+
+  .name2 {
+    margin-left: 9.5rem;
+  }
+
+  .myphoto3 {
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .container {
+    margin-left: 9rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .container {
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .cont1,
+  .cont2,
+  .cont3 {
+    height: 28rem;
+    width: 26rem;
+  }
+
+  .bkg1 {
+    width: 26rem;
+  }
+
+  .grid1 {
+    grid-template-columns: 12rem 1fr;
+  }
+
+  .myphoto2,
+  .myphoto3 {
+    margin-left: 9rem;
+  }
+
+  .hr,
+  .fbhr {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .container {
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .cont1,
+  .cont2,
+  .cont3 {
+    height: 28rem;
+    width: 20rem;
+  }
+
+  .myphoto1,
+  .myphoto2,
+  .myphoto3 {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .myphoto1,
+  .myphoto3 {
+    margin-top: -16%;
+  }
+
+  .myphoto2,
+  .myphoto3 {
+    margin-left: 6rem;
+  }
+
+  .myphoto2 {
+    margin-top: 1rem;
+  }
+
+  .bkg1 {
+    width: 20rem;
+    height: 9rem;
+  }
+
+  .name1,
+  .name2 {
+    font-size: 1.2rem;
+  }
+
+  .name2 {
+    margin-left: 10rem;
+  }
+
+  .front2,
+  .front3 {
+    font-size: 0.8rem;
+  }
+
+  .front3 {
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  .name2 {
+    margin-left: 6rem;
+  }
+
+  .ionicon1 {
+    margin-left: -9rem;
+  }
+
+  .hr,
+  .fbhr {
+    width: 19rem;
+  }
+
+  .grid1 {
+    grid-template-columns: 10rem 1fr;
+    margin-left: 2rem;
+  }
+
+  .btn1,
+  .btn2 {
+    margin-left: 6.5rem;
+  }
+
+  .ionicon1 {
+    margin-top: -13rem;
+    margin-left: -6rem;
+  }
+
+  .ionicon2 {
+    margin-top: -14.5rem;
+    margin-left: -0.1rem;
+  }
+
+  .ionicon3 {
+    margin-top: -14rem;
+    margin-left: 0.5rem;
+  }
+
+  hr {
+    width: 21rem;
+  }
+}
