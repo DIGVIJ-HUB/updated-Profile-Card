@@ -1,0 +1,268 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 6rem;
+  margin-left: 11rem;
+  margin-top: 12rem;
+}
+
+.cont1,
+.cont2,
+.cont3 {
+  height: 28rem;
+  width: 28rem;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.cont2 {
+  box-shadow: 3px 3px 25px 4px #d6249f;
+}
+
+@keyframes blink {
+  0% {
+    box-shadow: 3px 3px 25px 4px #0077b6;
+  }
+  50% {
+    box-shadow: 1px 1px 5px;
+  }
+  100% {
+    box-shadow: 3px 3px 25px 4px #0077b6;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    box-shadow: 3px 3px 25px 4px #0077b6;
+  }
+  50% {
+    box-shadow: 1px 1px 5px;
+  }
+  100% {
+    box-shadow: 3px 3px 25px 4px #0077b6;
+  }
+}
+
+@keyframes blink2 {
+  0% {
+    box-shadow: 3px 3px 25px 4px #d6249f;
+  }
+  50% {
+    box-shadow: 1px 1px 5px;
+  }
+  100% {
+    box-shadow: 3px 3px 25px 4px #d6249f;
+  }
+}
+@-webkit-keyframes blink2 {
+  0% {
+    box-shadow: 3px 3px 25px 4px #d6249f;
+  }
+  50% {
+    box-shadow: 1px 1px 5px;
+  }
+  100% {
+    box-shadow: 3px 3px 25px 4px #d6249f;
+  }
+}
+.blink {
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  -ms-animation: blink 1s linear infinite;
+  -o-animation: blink 1s linear infinite;
+  animation: blink 2.5s linear infinite;
+}
+
+.blink2 {
+  -webkit-animation: blink2 1s linear infinite;
+  -moz-animation: blink2 1s linear infinite;
+  -ms-animation: blink2 1s linear infinite;
+  -o-animation: blink2 1s linear infinite;
+  animation: blink2 2.5s linear infinite;
+}
+
+.bkg1 {
+  width: 28rem;
+  height: 10rem;
+}
+
+.myphoto1,
+.myphoto2,
+.myphoto3 {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.myphoto1 {
+  margin-left: 2px;
+}
+
+.myphoto1,
+.myphoto3 {
+  margin-top: -14%;
+}
+
+.myphoto2 {
+  margin-top: 5px;
+  margin-left: 9rem;
+}
+
+.myphoto3 {
+  margin-left: 9.5rem;
+  margin-top: -14%;
+}
+
+.name1,
+.name2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
+.name1 {
+  margin-top: -6px;
+}
+
+.name2 {
+  margin-top: -5px;
+  margin-left: 8.5rem;
+}
+
+.front1,
+.front2,
+.front3 {
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.front1 {
+  padding: 0.5rem;
+  margin-top: -30px;
+}
+
+.front2 {
+  padding: 0.5rem;
+  margin-top: -22px;
+}
+
+.front3 {
+  padding: 1.5rem;
+  margin-left: 0.8rem;
+  margin-top: -22px;
+}
+
+.hr,
+.fbhr {
+  width: 27rem;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  margin-top: 1rem;
+}
+
+.fbhr {
+  margin-top: -1rem;
+}
+
+.grid1 {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  margin-left: 4.2rem;
+}
+
+.num1,
+.num3 {
+  margin-top: 0rem;
+  font-weight: bold;
+}
+
+.num1 {
+  margin-left: 2.2rem;
+}
+
+.num3 {
+  margin-left: 2.5rem;
+}
+
+.tag1,
+.tag2,
+.tag3 {
+  margin-top: -0.5rem;
+}
+
+.tag2 {
+  margin-left: 1rem;
+}
+
+.tag3 {
+  margin-left: 2rem;
+}
+
+.btn1,
+.btn2 {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  padding: 11px 20px;
+  border-radius: 20px;
+  width: 10px;
+  border: none;
+}
+
+.btn1:link,
+.btn1:visited {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.btn1:hover,
+.btn1:active {
+  background-color: #fff;
+  color: #0077b6;
+  border: 1px solid #0077b6;
+}
+
+.btn2:link,
+.btn2:visited {
+  background: radial-gradient(
+    circle at 0% 145%,
+    #fdf497 0%,
+    #fdf497 -4%,
+    #fd5949 42%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: #fff;
+}
+
+.btn2:hover,
+.btn2:active {
+  background: #fff;
+  color: #d6249f;
+  border: 1px solid #d6249f;
+}
+
+.ionicon1,
+.ionicon2,
+.ionicon3 {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+}
+
+.ionicon1 {
+  margin-top: -14rem;
+  margin-left: -8rem;
+}
+
+.ionicon2 {
+  margin-top: -15.5rem;
+  margin-left: 0.1rem;
+}
+
+.ionicon3 {
+  margin-top: -13rem;
+  margin-left: 1rem;
+}
